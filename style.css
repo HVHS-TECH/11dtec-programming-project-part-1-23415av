@@ -1,0 +1,18 @@
+body {
+background-color: blue;
+}
+
+button {
+  padding: 45px 45px;
+  font-size: 25px;
+  cursor: pointer;
+  border: rgba(255, 235, 14, 0.514);
+  border-radius: 10px;
+  background-color: palegoldenrod;
+  color: #b3c5ff;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(184, 196, 142);
+}
