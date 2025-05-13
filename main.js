@@ -27,6 +27,24 @@ alert("Choose 4 if you prefer comedic and parody music.");
 alert("Choose 5 if you prefer something that falls under the emo category.");
 var choice = prompt("Now just enter the number");
 alert("To see what you got, look at the console [ctrl-shift-i].")
+    if () {
+        
+    }
+    else if () {
+        
+    }
+    else if () {
+        
+    }
+    else if () {
+
+    }
+        else if () {
+        
+    }
+    else if () {
+
+    }
 }
 
 
