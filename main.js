@@ -27,23 +27,23 @@ alert("Choose 4 if you prefer comedic and parody music.");
 alert("Choose 5 if you prefer something that falls under the emo category.");
 var choice = prompt("Now just enter the number");
 alert("To see what you got, look at the console [ctrl-shift-i].")
-    if () {
-        
+    if (choice == 0) {
+        console.log("Something obscure? Then I have to recomend " + cdArray[choice]);
     }
-    else if () {
-        
+    else if (choice == 1) {
+        console.log("Something ");
     }
-    else if () {
-        
+    else if (choice == 2) {
+        console.log("");
     }
-    else if () {
-
+    else if (choice == 3) {
+console.log("");
     }
-        else if () {
-        
+        else if (choice == 4) {
+        console.log("");
     }
-    else if () {
-
+    else if (choice == 5) {
+console.log("");
     }
 }
 
