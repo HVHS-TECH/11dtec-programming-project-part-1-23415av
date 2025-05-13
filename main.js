@@ -11,8 +11,12 @@ var userName
 /*************************
 Main Code
 *************************/
-userName = askUserName();
 console.log("Well " +userName+ ". You want a cd? Worry not! As long as you've answered the questions [which will appear if you press the button] then you only need to read a bit furthor");
+userName = askUserName();
+function recomendation() {
+
+}
+
 
 
 /*************************
