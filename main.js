@@ -15,7 +15,7 @@ Main Code
 console.log("Well " + userName + ". You want a cd? Worry not! As long as you've answered the questions [which will appear if you press the button] then you only need to read a bit furthor");
 userName = askUserName();
 function recomendation() {
-    alert("So. To get your recomendation, I am going to tell you six genres and their corresponding number [0-5].");
+    alert("So." +userName+". To get your recomendation, I am going to tell you six genres and their corresponding number [0-5].");
     alert("Then a prompt will come up, telling you to enter the number of your desired genre.");
     alert("After that, all you need to do is open the console [ctrl-shift-i] and you'll see your recomendation!");
     alert("If you need to write them down, feel free to do so.");
@@ -47,6 +47,10 @@ function recomendation() {
     }
 }
 
+function price() {
+    alert("Now then " + userName + ".");
+   
+}
 
 
 /*************************
