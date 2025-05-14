@@ -16,6 +16,24 @@ Main Code
 *************************/
 userName = askUserName();
 console.log("Well " + userName + ". You want a cd? Worry not! As long as you've answered the questions [which will appear if you press the button] then you only need to read a bit furthor");
+
+
+
+
+/*************************
+Functions
+*************************/
+function askUserName() {
+    var temp1 = prompt("Before we start, I was hopping you could tell me your name down below");
+    return (temp1);
+}
+
+function askDaysRented() {
+    var temp2 = prompt("How many days would you like the cd?");
+    return (temp2);
+    daysRented = Number(daysRented);
+}
+
 function recomendation() {
     alert("So. " + userName + ". To get your recomendation, I am going to tell you six genres and their corresponding number [0-5].");
     alert("Then a prompt will come up, telling you to enter the number of your desired genre.");
@@ -48,6 +66,7 @@ function recomendation() {
         console.log("Okay " + userName + ". You want something emo? Then I have to recomend " + cdArray[choice]);
     }
 }
+
 function price() {
     alert("Now then " + userName + "Time to calculate the price.");
     alert("There is a $15 bond fee. This will be returned to you if the cd is kept in good condition.");
@@ -57,18 +76,4 @@ function price() {
     daysRented = askDaysRented();
     answer = price + daysRented;
     console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer + " upfront.");
-}
-
-
-/*************************
-Functions
-*************************/
-function askUserName() {
-    var temp1 = prompt("Before we start, I was hopping you could tell me your name down below");
-    return (temp1);
-}
-function askDaysRented() {
-    var temp2 = prompt("How many days would you like the cd?");
-    return (temp2);
-    daysRented = Number(daysRented);
 }
