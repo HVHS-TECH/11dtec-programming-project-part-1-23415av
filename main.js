@@ -31,19 +31,19 @@ alert("To see what you got, look at the console [ctrl-shift-i].")
         console.log("Something obscure? Then I have to recomend " + cdArray[choice]);
     }
     else if (choice == 1) {
-        console.log("Something ");
+        console.log("Something alternative? Then I have to recomend " +cdArray[choice]);
     }
     else if (choice == 2) {
-        console.log("");
+        console.log("Something older? Then I have to recomend " +cdArray[choice]);
     }
     else if (choice == 3) {
-console.log("");
+console.log("Something pop? Then I have to recomend " +cdArray[choice]);
     }
         else if (choice == 4) {
-        console.log("");
+        console.log("Something comedic? Then I have to recomend " +cdArray[choice]);
     }
     else if (choice == 5) {
-console.log("");
+console.log("Something emo? Then I have to recomend " +cdArray[choice]);
     }
 }
 
