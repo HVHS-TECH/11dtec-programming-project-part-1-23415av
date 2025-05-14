@@ -57,7 +57,7 @@ function price() {
     alert("The late days will obviously not be included in your upfront payment.");
    daysRented = askDaysRented();
    answer = price + daysRented;
-   console.log("Okay " + userName = ". To rent for " + daysRented + " days, you will need to pay $" + answer + " upfront.");
+   console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer + " upfront.");
 }
 
 
