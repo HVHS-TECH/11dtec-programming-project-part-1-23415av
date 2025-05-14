@@ -48,7 +48,6 @@ function recomendation() {
         console.log("Okay " + userName + ". You want something emo? Then I have to recomend " + cdArray[choice]);
     }
 }
-
 function price() {
     alert("Now then " + userName + "Time to calculate the price.");
     alert("There is a $15 bond fee. This will be returned to you if the cd is kept in good condition.");
