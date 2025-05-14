@@ -8,7 +8,9 @@ Term 2
 //Variables
 var userName;
 var cdArray = ["Everything is a Lot - Will Wood", "Eureka - Mother Mother", "Diamond Dogs - David Bowie", "Reputation - Taylor Swift", "Bad Hair Day - “Weird Al” Yankovic", "The Black Parade - My Chemical Romance"];
-
+var price;
+price = Number(10);
+var answer;
 /*************************
 Main Code
 *************************/
@@ -53,7 +55,9 @@ function price() {
     alert("For each day you want to have it, you'll need to pay $3.");
     alert("For any late days, you will need to pay the $3 and an additional $2 fee.");
     alert("The late days will obviously not be included in your upfront payment.");
-   
+   daysRented = askDaysRented();
+   answer = price + daysRented;
+   console.log("Okay " + userName = ". To rent for " + daysRented + " days, you will need to pay $" + answer + " upfront.");
 }
 
 
@@ -63,4 +67,9 @@ Functions
 function askUserName() {
     var temp1 = prompt("Before we start, I was hopping you could tell me your name down below");
     return (temp1);
+}
+function askDaysRented() {
+    var temp2 = prompt("How many days would you like the cd?");
+    return (temp2);
+    daysRented = Number(daysRented);
 }
