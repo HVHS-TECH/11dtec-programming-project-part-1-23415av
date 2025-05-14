@@ -48,7 +48,8 @@ function recomendation() {
 }
 
 function price() {
-    alert("Now then " + userName + ".");
+    alert("Now then " + userName + "Time to calculate the price.");
+    alert("There is a $10 bond fee. ")
    
 }
 
