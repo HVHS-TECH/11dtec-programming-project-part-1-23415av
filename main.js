@@ -79,3 +79,7 @@ function price() {
     console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer2 + " upfront.");
     alert("To see what the price is, look at the console [ctrl-shift-i].")
 }
+
+function summary() {
+console.log("In summary. You, " + userName + " will have to pay $" + answer2 + " to rent out " + cdArray[choice] + " for " + daysRented + " days.");
+}
