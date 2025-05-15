@@ -8,8 +8,8 @@ Term 2
 //Variables
 var userName;
 var cdArray = ["Everything is a Lot - Will Wood", "Eureka - Mother Mother", "Diamond Dogs - David Bowie", "Reputation - Taylor Swift", "Bad Hair Day - “Weird Al” Yankovic", "The Black Parade - My Chemical Romance"];
-var price;
-price = Number(10);
+var basePrice;
+basePrice = 15;
 var answer;
 /*************************
 Main Code
@@ -74,6 +74,6 @@ function price() {
     alert("For any late days, you will need to pay the $3 and an additional $2 fee.");
     alert("The late days will obviously not be included in your upfront payment.");
     daysRented = askDaysRented();
-    answer = price + daysRented;
+    answer = basePrice + daysRented;
     console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer + " upfront.");
 }
