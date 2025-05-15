@@ -75,12 +75,12 @@ function price() {
     alert("For any late days, you will need to pay the $3 and an additional $2 fee.");
     alert("The late days will obviously not be included in your upfront payment.");
     daysRented = askDaysRented();
-    answer = daysRented * 2;
+    answer = daysRented * 3;
     answer2 = answer + basePrice;
     console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer2 + " upfront.");
     alert("To see what the price is, look at the console [ctrl-shift-i].")
 }
 
 function summary() {
-console.log("In summary. You, " + userName + " will have to pay $" + answer2 + " to rent out " + cdArray[choice] + " for " + daysRented + " days.");
+console.log("In summary. You, " + userName + ", will have to pay $" + answer2 + " to rent out " + cdArray[choice] + " for " + daysRented + " days.");
 }
