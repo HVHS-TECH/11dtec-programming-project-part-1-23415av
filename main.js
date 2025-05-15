@@ -77,4 +77,5 @@ function price() {
     answer = daysRented * 2;
     answer2 = answer + basePrice;
     console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer2 + " upfront.");
+    alert("To see what the price is, look at the console [ctrl-shift-i].")
 }
