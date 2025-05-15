@@ -68,7 +68,7 @@ function recomendation() {
 }
 
 function price() {
-    alert("Now then " + userName + "Time to calculate the price.");
+    alert("Now then " + userName + " Time to calculate the price.");
     alert("There is a $15 bond fee. This will be returned to you if the cd is kept in good condition.");
     alert("For each day you want to have it, you'll need to pay $3.");
     alert("For any late days, you will need to pay the $3 and an additional $2 fee.");
