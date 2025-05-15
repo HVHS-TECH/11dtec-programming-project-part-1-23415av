@@ -86,3 +86,5 @@ function summary() {
     console.log("In summary. You, " + userName + ", will have to pay $" + answer2 + " to rent out " + cdArray[choice] + " for " + daysRented + " days.");
     alert("Look at the console [ctrl-shift-i].");
 }
+
+//Have someone test the program so far
