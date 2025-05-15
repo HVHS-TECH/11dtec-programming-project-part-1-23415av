@@ -17,8 +17,6 @@ Main Code
 userName = askUserName();
 console.log("Well " + userName + ". You want a cd? Worry not! As long as you've answered the questions [which will appear if you press the button] then you only need to read a bit furthor");
 
-console.log("Runnung!!!!")
-
 
 /*************************
 Functions
@@ -68,12 +66,12 @@ function recomendation() {
 }
 
 function price() {
-    alert("Now then " + userName + " Time to calculate the price.");
+    alert("Now then " + userName + ". Time to calculate the price.");
     alert("There is a $15 bond fee. This will be returned to you if the cd is kept in good condition.");
     alert("For each day you want to have it, you'll need to pay $3.");
     alert("For any late days, you will need to pay the $3 and an additional $2 fee.");
     alert("The late days will obviously not be included in your upfront payment.");
     daysRented = askDaysRented();
-    answer = basePrice + daysRented;
+    answer = basePrice * 2;
     console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer + " upfront.");
 }
