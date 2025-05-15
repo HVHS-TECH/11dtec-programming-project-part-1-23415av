@@ -7,6 +7,7 @@ Term 2
 
 //Variables
 var userName;
+var choice;
 var cdArray = ["Everything is a Lot - Will Wood", "Eureka - Mother Mother", "Diamond Dogs - David Bowie", "Reputation - Taylor Swift", "Bad Hair Day - “Weird Al” Yankovic", "The Black Parade - My Chemical Romance"];
 var basePrice;
 basePrice = 15;
@@ -45,7 +46,7 @@ function recomendation() {
     alert("Choose 3 if you prefer pop music.");
     alert("Choose 4 if you prefer comedic and parody music.");
     alert("Choose 5 if you prefer something that falls under the emo category.");
-    var choice = prompt("Now just enter the number");
+    choice = prompt("Now just enter the number");
     alert("To see what you got, look at the console [ctrl-shift-i].")
     if (choice == 0) {
         console.log("Okay " + userName + ". You want something obscure? Then I have to recomend " + cdArray[choice]);
