@@ -11,6 +11,8 @@ var cdArray = ["Everything is a Lot - Will Wood", "Eureka - Mother Mother", "Dia
 var basePrice;
 basePrice = 15;
 var answer;
+var answer2;
+var daysRented;
 /*************************
 Main Code
 *************************/
@@ -72,6 +74,7 @@ function price() {
     alert("For any late days, you will need to pay the $3 and an additional $2 fee.");
     alert("The late days will obviously not be included in your upfront payment.");
     daysRented = askDaysRented();
-    answer = basePrice * 2;
-    console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer + " upfront.");
+    answer = daysRented * 2;
+    answer2 = answer + basePrice;
+    console.log("Okay " + userName + ". To rent for " + daysRented + " days, you will need to pay $" + answer2 + " upfront.");
 }
