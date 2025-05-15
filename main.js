@@ -83,5 +83,6 @@ function price() {
 }
 
 function summary() {
+    alert("Look at the console [ctrl-shift-i].");
     console.log("In summary. You, " + userName + ", will have to pay $" + answer2 + " to rent out " + cdArray[choice] + " for " + daysRented + " days.");
 }
