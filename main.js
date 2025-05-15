@@ -4,6 +4,7 @@ Achlys
 Week 3
 Term 2
 *************************/
+//The colours in the css are only temporariy placeholders for now
 
 //Variables
 var userName;
@@ -82,5 +83,5 @@ function price() {
 }
 
 function summary() {
-console.log("In summary. You, " + userName + ", will have to pay $" + answer2 + " to rent out " + cdArray[choice] + " for " + daysRented + " days.");
+    console.log("In summary. You, " + userName + ", will have to pay $" + answer2 + " to rent out " + cdArray[choice] + " for " + daysRented + " days.");
 }
