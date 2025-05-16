@@ -14,7 +14,12 @@ p {
   color: #987D7C
 }
 
-.container{
+.buttoncontainer{
+  display:flex;
+  gap:150px;
+}
+
+.textcontainer{
   display:flex;
   gap:150px;
 }
