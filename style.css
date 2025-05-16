@@ -6,12 +6,19 @@ h1 {
   color: #A09CB0;
 }
 
+#header {
+  text-align: center;
+  background-color: #ABDAE1;
+  width: 700px;
+  border-radius: 50px;
+}
+
 h2 {
-  color: #987D7C
+  color: #987D7C;
 }
 
 p {
-  color: #987D7C
+  color: #987D7C;
 }
 
 .buttoncontainer{
@@ -22,6 +29,7 @@ p {
 .textcontainer{
   display:flex;
   flex-direction: column;
+  
   gap:5px;
 }
 
