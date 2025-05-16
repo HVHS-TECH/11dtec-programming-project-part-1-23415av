@@ -2,7 +2,14 @@ body {
   background-color: blue;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 button {
+  width:500px;
   padding: 45px 45px;
   font-size: 25px;
   cursor: pointer;
