@@ -21,7 +21,8 @@ p {
 
 .textcontainer{
   display:flex;
-  gap:150px;
+  flex-direction: column;
+  gap:5px;
 }
 
 button {
