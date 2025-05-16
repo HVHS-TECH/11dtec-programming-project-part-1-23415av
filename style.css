@@ -21,20 +21,19 @@ p {
   color: #987D7C;
 }
 
-.buttoncontainer{
-  display:flex;
-  gap:150px;
+.buttoncontainer {
+  display: flex;
+  gap: 150px;
 }
 
-.textcontainer{
-  display:flex;
+.textcontainer {
+  display: flex;
   flex-direction: column;
-  
-  gap:5px;
+  gap: 5px;
 }
 
 button {
-  width:550px;
+  width: 550px;
   padding: 45px 45px;
   font-size: 25px;
   cursor: pointer;
@@ -48,6 +47,6 @@ button {
 
 button:hover {
   background-color: rgb(121, 96, 153);
-  color:#793422;
+  color: #793422;
   border-color: #4e4f69;
 }
