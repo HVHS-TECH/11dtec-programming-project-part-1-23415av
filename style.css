@@ -1,12 +1,12 @@
 body {
   background-color: blue;
 }
-//The colours in the css are only temporariy placeholders for now
+
 button {
   padding: 45px 45px;
   font-size: 25px;
   cursor: pointer;
-  border: rgba(255, 235, 14, 0.514);
+  border: rgba(255, 235, 14, 0.9);
   border-radius: 10px;
   background-color: palegoldenrod;
   color: #b3c5ff;
@@ -14,5 +14,6 @@ button {
 }
 
 button:hover {
-  background-color: rgb(184, 196, 142);
+  background-color: rgb(184, 196, 142, 0.9);
+  color:#7a89b8;
 }
