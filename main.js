@@ -79,6 +79,9 @@ function recomendation() {
     else if (choice == 5) {
         console.log("Okay " + userName + ". You want something emo? Then I have to recomend " + cdArray[choice]);
     }
+    else {
+        console.log("So you didn't put a valid number in. Try again.");
+    }
 }
 
 function price() {
