@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(184, 196, 142, 0.9);
-  color:#7a89b8;
-  border-color: #A3B9C9;
+  background-color: rgb(121, 96, 153);
+  color:#793422;
+  border-color: #4e4f69;
 }
