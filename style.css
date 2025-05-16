@@ -10,6 +10,7 @@ h1 {
 #header {
   text-align: center;
   background-color: #ABDAE1;
+  border: 20px black;
   width: 700px;
   border-radius: 50px;
 }
