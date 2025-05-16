@@ -10,7 +10,13 @@ Achlys
 Week 3
 Term 2
 *************************/
-//The colours in the css are only temporariy placeholders for now
+/*
+Background And Button Text - #776d5a
+Button Background - #ABDAE1
+Button Border - #A3B9C9
+Text - #987D7C
+Header - #A09CB0
+*/
 
 //Variables
 var userName;

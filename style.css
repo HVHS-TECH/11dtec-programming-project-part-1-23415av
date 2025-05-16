@@ -1,5 +1,17 @@
 body {
-  background-color: blue;
+  background-color: #776D5A;
+}
+
+h1 {
+  color: #A09CB0;
+}
+
+h2 {
+  color: #987D7C
+}
+
+p {
+  color: #987D7C
 }
 
 .container{
@@ -12,16 +24,16 @@ button {
   padding: 45px 45px;
   font-size: 25px;
   cursor: pointer;
-  border-color: pink;
-  border-radius: 50px;
-  border-width: 10px;
-  background-color: palegoldenrod;
-  color: #b3c5ff;
+  border-color: #A3B9C9;
+  border-radius: 30px;
+  border-width: 5px;
+  background-color: #ABDAE1;
+  color: #776D5A;
   text-align: center;
 }
 
 button:hover {
   background-color: rgb(184, 196, 142, 0.9);
   color:#7a89b8;
-  border-color: pink;
+  border-color: #A3B9C9;
 }
