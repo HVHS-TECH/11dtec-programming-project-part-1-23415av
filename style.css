@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-  color: #A09CB0;
+  color: #af9bc5;
+  
 }
 
 #header {
@@ -14,11 +15,11 @@ h1 {
 }
 
 h2 {
-  color: #c7a4a3;
+  color: #A09CB0;
 }
 
 p {
-  color: #c7a4a3;
+  color: #A09CB0;
 }
 
 .buttoncontainer {
