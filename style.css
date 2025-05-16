@@ -2,19 +2,19 @@ body {
   background-color: blue;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.container{
+  display:flex;
+  gap:150px;
 }
 
 button {
-  width:500px;
+  width:550px;
   padding: 45px 45px;
   font-size: 25px;
   cursor: pointer;
-  border: rgba(255, 235, 14, 0.9);
-  border-radius: 10px;
+  border-color: pink;
+  border-radius: 50px;
+  border-width: 10px;
   background-color: palegoldenrod;
   color: #b3c5ff;
   text-align: center;
@@ -23,4 +23,5 @@ button {
 button:hover {
   background-color: rgb(184, 196, 142, 0.9);
   color:#7a89b8;
+  border-color: pink;
 }
